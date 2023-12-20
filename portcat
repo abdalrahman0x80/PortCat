@@ -1,0 +1,4 @@
+#!/bin/bash
+# this tools run with netcat only please download netcat if you not have this tools
+
+nc -nv -z -w 1 $1 $2
